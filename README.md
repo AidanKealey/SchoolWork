@@ -1,14 +1,14 @@
-# A Repo of my Work
+# A repo of my work
 
 The code in this repo are from my personal projects and school work
 
 ## Overview
 
-### ELEC 475
+### ELEC 475 - Computer Vision with Deep Learning
 
 * This folder contains folders to the 5 assignments I worked on during the course.
 
-### ELEC 452
+### CMPE 452 - Neural And Genetic Computing
 
 * This folder contains the folders to the code portions of the 4 assignments I had in this course.
 * This folder also contains my group's code for the course project.
