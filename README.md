@@ -13,6 +13,9 @@ The code in this repo are from my personal projects and school work
 * This folder contains the folders to the code portions of the 4 assignments I had in this course.
 * This folder also contains my group's code for the course project.
 
+## Datasets
+
+The datasets used for the above projects can be found at: https://drive.google.com/drive/folders/14MjuPgK1PEHtt1eSUUcuuxP5guy7HEsF?usp=share_link
 
 
 <!-- 
