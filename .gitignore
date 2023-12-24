@@ -1,6 +1,13 @@
 
 # Elec 475 stuff
+ELEC-475/Assignment4/data/Kitti8/
+ELEC-475/Assignment4/data/Kitti8_ROIs/
+ELEC-475/Assignment4/data/step4/
+ELEC-475/Assignment4/old/
+
+
 ELEC-475/Assignment5/data/21/
 ELEC-475/Assignment5/data/images/
 ELEC-475/Assignment5/outputs/testing/images/
+
 *.zip
