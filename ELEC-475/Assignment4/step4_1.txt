@@ -1,0 +1,2 @@
+# make sure to uncomment step4_1() in the if main
+python3 step4.py -i ./data/Kitti8 -o ./data/step4 -m test
