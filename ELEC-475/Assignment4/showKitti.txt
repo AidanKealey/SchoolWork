@@ -1,1 +1,0 @@
-python showKitti.py -i C:\Users\paulf\PycharmProjects\Lab4\Kitti8

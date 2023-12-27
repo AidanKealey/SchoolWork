@@ -1,1 +1,0 @@
-python3 test_vanilla.py -en encoder.pth -de vanilla_e20_b100.pth

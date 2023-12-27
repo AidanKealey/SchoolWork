@@ -1,1 +1,0 @@
-python3 test.py -t data/test_noses.txt -i data/images -b 48 -m nose_regress_e12.pth

@@ -1,1 +1,0 @@
-python3 train.py -t data/train_noses.txt -i data/images -e 12 -b 100 -s nose_regress -p train_plot

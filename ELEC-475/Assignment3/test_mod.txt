@@ -1,1 +1,0 @@
-python3 test_mod.py -en encoder.pth -de mod_e20_b100.pth
