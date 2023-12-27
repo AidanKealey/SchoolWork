@@ -1,0 +1,1 @@
+python3 step3_test.py -i data/Kitti8_ROIs -m yoda_classifier_train_e30.pth -b 100 -c step3_test_confusion_matrix.png -a step3_test_accuracy.txt

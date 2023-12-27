@@ -1,0 +1,3 @@
+# python3 step3_train.py -i ./data/Kitti8_ROIs -e 25 -b 480 -s yoda_classifier_train_e25.pth -p loss_plot_train_e25.png -c confusion_matrix_train_e25.png -a accuracy_train_e25.txt
+
+python3 step3_train.py -i ./data/Kitti8_ROIs -e 30 -b 480 -s yoda_classifier_train_e30.pth -p loss_plot_train_e30.png -a accuracy_train_e30.txt

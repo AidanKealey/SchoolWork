@@ -1,0 +1,58 @@
+/Users/aidankealey/PycharmProjects/ELEC475_L5/venv/bin/python /Users/aidankealey/PycharmProjects/ELEC475_L5/train.py -t data/train_noses.txt -i data/images -e 12 -b 100 -s nose_regress -p train_plot
+/Users/aidankealey/PycharmProjects/ELEC475_L5/venv/lib/python3.9/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+PyTorch version: 2.1.1
+Is MPS (Metal Performance Shader) built? True
+Is MPS available? True
+using mps ...
+Using device: mps
+/Users/aidankealey/PycharmProjects/ELEC475_L5/venv/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+training...
+Starting Epoch 1 at 23:10:23 PM
+displaying image
+predicted: (343, 328)
+actual: (459, 99)
+Epoch 1 took 47.25 seconds -- about 0 minutes
+Starting Epoch 2 at 23:11:10 PM
+Epoch 2 took 46.20 seconds -- about 0 minutes
+Starting Epoch 3 at 23:11:57 PM
+displaying image
+predicted: (272, 133)
+actual: (240, 116)
+Epoch 3 took 46.44 seconds -- about 0 minutes
+Starting Epoch 4 at 23:12:43 PM
+Epoch 4 took 46.19 seconds -- about 0 minutes
+Starting Epoch 5 at 23:13:29 PM
+displaying image
+predicted: (258, 242)
+actual: (255, 254)
+Epoch 5 took 46.40 seconds -- about 0 minutes
+Starting Epoch 6 at 23:14:16 PM
+Epoch 6 took 46.16 seconds -- about 0 minutes
+Starting Epoch 7 at 23:15:02 PM
+displaying image
+predicted: (57, 68)
+actual: (63, 60)
+Epoch 7 took 46.39 seconds -- about 0 minutes
+Starting Epoch 8 at 23:15:48 PM
+Epoch 8 took 46.14 seconds -- about 0 minutes
+Starting Epoch 9 at 23:16:34 PM
+displaying image
+predicted: (254, 171)
+actual: (264, 168)
+Epoch 9 took 46.37 seconds -- about 0 minutes
+Starting Epoch 10 at 23:17:21 PM
+Epoch 10 took 46.13 seconds -- about 0 minutes
+Starting Epoch 11 at 23:18:07 PM
+displaying image
+predicted: (246, 242)
+actual: (247, 241)
+Epoch 11 took 46.24 seconds -- about 0 minutes
+Starting Epoch 12 at 23:18:53 PM
+Epoch 12 took 46.05 seconds -- about 0 minutes
+Model trained and saved to nose_regress
+Training Time: 556.031172990799 seconds -- about 9 minutes
+training completed
+
+Process finished with exit code 0

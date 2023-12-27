@@ -1,0 +1,1 @@
+python3 train_mod.py -e 20 -b 100 -lr 1e-4 -en encoder.pth -s mod_e20_b100.pth -p training_plot_mod_e20_b100.png
