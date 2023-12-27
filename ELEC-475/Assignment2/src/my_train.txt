@@ -1,0 +1,8 @@
+#   100 training
+python3 train.py -content_dir ../datasets/COCO100/ -style_dir ../datasets/wikiart100/ -gamma 1.0 -e 20 -b 10 -l ../encoder.pth -s decoder_d100_g1_e20_b10.pth -p loss_plot_d100_g1_e20_b10.png
+
+#   1k training
+python3 train.py -content_dir ../datasets/COCO1k/ -style_dir ../datasets/wikiart1k/ -gamma 1.0 -e 20 -b 10 -l ../encoder.pth -s decoder_d1k_g1_e20_b10.pth -p loss_plot_d1k_g1_e20_b10.png
+
+#   10k training
+python3 train.py -content_dir ../datasets/COCO10k/ -style_dir ../datasets/wikiart10k/ -gamma 1.0 -e 20 -b 10 -l ../encoder.pth -s decoder_d10k_g1_e20_b10.pth -p loss_plot_d10k_g1_e20_b10.png

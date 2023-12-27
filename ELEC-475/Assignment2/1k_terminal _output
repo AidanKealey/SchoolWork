@@ -1,0 +1,113 @@
+/Users/aidankealey/PycharmProjects/ELEC475_L2/venv/bin/python /Users/aidankealey/PycharmProjects/ELEC475_L2/src/train.py -content_dir ./datasets/COCO1k/ -style_dir ./datasets/wikiart1k/ -gamma 1.0 -e 20 -b 10 -l ./encoder.pth -s decoder_d1k_g1_e20_b10.pth -p loss_plot_d1k_g1_e20_b10.png 
+/Users/aidankealey/PycharmProjects/ELEC475_L2/venv/lib/python3.9/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+PyTorch version: 2.0.1
+Is MPS (Metal Performance Shader) built? True
+Is MPS available? True
+Using device: mps
+Training start time: 10:55:55.242744
+training...
+Epoch 1/20, Content Loss: 0.2608728742599487, Style Loss: 0.8413306157588959, Total Loss: 1.1022034912109375
+Epoch Start Time: 10:55:55.268150 
+Epoch End Time: 10:59:39.786714 
+Epoch Delta Time: 0:03:44.518564 
+Delta Time From Start: 0:03:44.543970
+Epoch 2/20, Content Loss: 0.23376885271072387, Style Loss: 0.4299345175027847, Total Loss: 0.6637033696174621
+Epoch Start Time: 10:59:39.786763 
+Epoch End Time: 11:03:23.933271 
+Epoch Delta Time: 0:03:44.146508 
+Delta Time From Start: 0:07:28.690527
+Epoch 3/20, Content Loss: 0.2139492244720459, Style Loss: 0.2865078958272934, Total Loss: 0.5004571208953857
+Epoch Start Time: 11:03:23.933292 
+Epoch End Time: 11:07:07.748616 
+Epoch Delta Time: 0:03:43.815324 
+Delta Time From Start: 0:11:12.505872
+Epoch 4/20, Content Loss: 0.19753221833705903, Style Loss: 0.24100997710227967, Total Loss: 0.43854219603538513
+Epoch Start Time: 11:07:07.748629 
+Epoch End Time: 11:10:51.815600 
+Epoch Delta Time: 0:03:44.066971 
+Delta Time From Start: 0:14:56.572856
+Epoch 5/20, Content Loss: 0.1880870943069458, Style Loss: 0.21947689545154572, Total Loss: 0.4075639908313751
+Epoch Start Time: 11:10:51.815623 
+Epoch End Time: 11:14:35.816100 
+Epoch Delta Time: 0:03:44.000477 
+Delta Time From Start: 0:18:40.573356
+Epoch 6/20, Content Loss: 0.17892476749420166, Style Loss: 0.20376164984703063, Total Loss: 0.38268641686439514
+Epoch Start Time: 11:14:35.816117 
+Epoch End Time: 11:18:20.017204 
+Epoch Delta Time: 0:03:44.201087 
+Delta Time From Start: 0:22:24.774460
+Epoch 7/20, Content Loss: 0.1696182336807251, Style Loss: 0.177750106215477, Total Loss: 0.3473683395385742
+Epoch Start Time: 11:18:20.017226 
+Epoch End Time: 11:22:03.750961 
+Epoch Delta Time: 0:03:43.733735 
+Delta Time From Start: 0:26:08.508217
+Epoch 8/20, Content Loss: 0.16457760107517241, Style Loss: 0.17601448833942412, Total Loss: 0.3405920919179916
+Epoch Start Time: 11:22:03.750978 
+Epoch End Time: 11:25:47.511742 
+Epoch Delta Time: 0:03:43.760764 
+Delta Time From Start: 0:29:52.268998
+Epoch 9/20, Content Loss: 0.15981136953830719, Style Loss: 0.16931152802705765, Total Loss: 0.3291228973865509
+Epoch Start Time: 11:25:47.511771 
+Epoch End Time: 11:29:31.502910 
+Epoch Delta Time: 0:03:43.991139 
+Delta Time From Start: 0:33:36.260166
+Epoch 10/20, Content Loss: 0.15319406920671463, Style Loss: 0.15079337841272353, Total Loss: 0.3039874465465546
+Epoch Start Time: 11:29:31.502925 
+Epoch End Time: 11:33:15.602874 
+Epoch Delta Time: 0:03:44.099949 
+Delta Time From Start: 0:37:20.360130
+Epoch 11/20, Content Loss: 0.15022555649280547, Style Loss: 0.15391968101263045, Total Loss: 0.304145237326622
+Epoch Start Time: 11:33:15.602890 
+Epoch End Time: 11:36:59.465058 
+Epoch Delta Time: 0:03:43.862168 
+Delta Time From Start: 0:41:04.222314
+Epoch 12/20, Content Loss: 0.14693457132577897, Style Loss: 0.14411886394023896, Total Loss: 0.2910534347295761
+Epoch Start Time: 11:36:59.465071 
+Epoch End Time: 11:40:43.262058 
+Epoch Delta Time: 0:03:43.796987 
+Delta Time From Start: 0:44:48.019314
+Epoch 13/20, Content Loss: 0.14794331634044647, Style Loss: 0.1656452402472496, Total Loss: 0.3135885570049286
+Epoch Start Time: 11:40:43.262086 
+Epoch End Time: 11:44:27.215717 
+Epoch Delta Time: 0:03:43.953631 
+Delta Time From Start: 0:48:31.972973
+Epoch 14/20, Content Loss: 0.14632196682691573, Style Loss: 0.17211425691843033, Total Loss: 0.3184362243413925
+Epoch Start Time: 11:44:27.215755 
+Epoch End Time: 11:48:11.133722 
+Epoch Delta Time: 0:03:43.917967 
+Delta Time From Start: 0:52:15.890978
+Epoch 15/20, Content Loss: 0.14320131528377533, Style Loss: 0.15631381249427795, Total Loss: 0.29951512718200685
+Epoch Start Time: 11:48:11.133739 
+Epoch End Time: 11:51:54.988119 
+Epoch Delta Time: 0:03:43.854380 
+Delta Time From Start: 0:55:59.745375
+Epoch 16/20, Content Loss: 0.1391635901927948, Style Loss: 0.14744292098283768, Total Loss: 0.2866065112352371
+Epoch Start Time: 11:51:54.988139 
+Epoch End Time: 11:55:39.039941 
+Epoch Delta Time: 0:03:44.051802 
+Delta Time From Start: 0:59:43.797197
+Epoch 17/20, Content Loss: 0.1400553143620491, Style Loss: 0.14580285051465033, Total Loss: 0.28585816407203674
+Epoch Start Time: 11:55:39.039963 
+Epoch End Time: 11:59:22.600282 
+Epoch Delta Time: 0:03:43.560319 
+Delta Time From Start: 1:03:27.357538
+Epoch 18/20, Content Loss: 0.13290927404165268, Style Loss: 0.12396768081188202, Total Loss: 0.2568769541978836
+Epoch Start Time: 11:59:22.600322 
+Epoch End Time: 12:03:06.414842 
+Epoch Delta Time: 0:03:43.814520 
+Delta Time From Start: 1:07:11.172098
+Epoch 19/20, Content Loss: 0.13095247948169708, Style Loss: 0.12191022270917892, Total Loss: 0.2528627008199692
+Epoch Start Time: 12:03:06.414870 
+Epoch End Time: 12:07:50.122072 
+Epoch Delta Time: 0:04:43.707202 
+Delta Time From Start: 1:11:54.879328
+Epoch 20/20, Content Loss: 0.13062066626548768, Style Loss: 0.12275166553258895, Total Loss: 0.2533723311424255
+Epoch Start Time: 12:07:50.122084 
+Epoch End Time: 12:29:19.297206 
+Epoch Delta Time: 0:21:29.175122 
+Delta Time From Start: 1:33:24.054462
+Training end time: 12:29:19.297233
+Training total time: 1:33:24.054489
+
+Process finished with exit code 0

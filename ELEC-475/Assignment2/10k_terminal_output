@@ -1,0 +1,116 @@
+/Users/aidankealey/PycharmProjects/ELEC475_L2/venv/bin/python /Users/aidankealey/PycharmProjects/ELEC475_L2/src/train.py -content_dir ./datasets/COCO10k/ -style_dir ./datasets/wikiart10k/ -gamma 1.0 -e 20 -b 10 -l ./encoder.pth -s decoder_d10k_g1_e20_b10.pth -p loss_plot_d10k_g1_e20_b10.png
+/Users/aidankealey/PycharmProjects/ELEC475_L2/venv/lib/python3.9/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Content Directory: ./datasets/COCO10k/, Style Directory: ./datasets/wikiart10k/
+ Gamma: 1.0, Number of Epochs: 20, Batch Size: 10
+ Load Encoder Weights: ./encoder.pth, Create Decoder Weights: decoder_d10k_g1_e20_b10.pth,  Loss Plot: loss_plot_d10k_g1_e20_b10.png
+PyTorch version: 2.0.1
+Is MPS (Metal Performance Shader) built? True
+Is MPS available? True
+Using device: mps
+Training start time: 13:35:13.537311
+training...
+Epoch 1/20, Content Loss: 0.1948160245001316, Style Loss: 0.3099263271510601, Total Loss: 0.504742352092266
+Epoch Start Time: 13:35:13.568278
+Epoch End Time: 14:12:43.187676
+Epoch Delta Time: 0:37:29.619398
+Delta Time From Start: 0:37:29.650365
+Epoch 2/20, Content Loss: 0.1419412195146084, Style Loss: 0.15028196719884873, Total Loss: 0.2922231862783432
+Epoch Start Time: 14:12:43.187773
+Epoch End Time: 14:50:01.274233
+Epoch Delta Time: 0:37:18.086460
+Delta Time From Start: 1:14:47.736922
+Epoch 3/20, Content Loss: 0.12466489538550377, Style Loss: 0.13172297096550464, Total Loss: 0.256387866127491
+Epoch Start Time: 14:50:01.274265
+Epoch End Time: 15:27:20.261370
+Epoch Delta Time: 0:37:18.987105
+Delta Time From Start: 1:52:06.724059
+Epoch 4/20, Content Loss: 0.11496092797517776, Style Loss: 0.11912236566841602, Total Loss: 0.23408329386711121
+Epoch Start Time: 15:27:20.261390
+Epoch End Time: 16:04:38.943171
+Epoch Delta Time: 0:37:18.681781
+Delta Time From Start: 2:29:25.405860
+Epoch 5/20, Content Loss: 0.10780654019713402, Style Loss: 0.11389920855462551, Total Loss: 0.22170574889183045
+Epoch Start Time: 16:04:38.943196
+Epoch End Time: 16:41:57.603078
+Epoch Delta Time: 0:37:18.659882
+Delta Time From Start: 3:06:44.065767
+Epoch 6/20, Content Loss: 0.10258984780311585, Style Loss: 0.10665263534784317, Total Loss: 0.20924248337745666
+Epoch Start Time: 16:41:57.603106
+Epoch End Time: 17:19:16.343312
+Epoch Delta Time: 0:37:18.740206
+Delta Time From Start: 3:44:02.806001
+Epoch 7/20, Content Loss: 0.09848891930580139, Style Loss: 0.10113348737955094, Total Loss: 0.1996224069416523
+Epoch Start Time: 17:19:16.343341
+Epoch End Time: 17:56:35.713745
+Epoch Delta Time: 0:37:19.370404
+Delta Time From Start: 4:21:22.176434
+Epoch 8/20, Content Loss: 0.09488441422581673, Style Loss: 0.09622219687104225, Total Loss: 0.1911066115319729
+Epoch Start Time: 17:56:35.713781
+Epoch End Time: 18:33:53.664388
+Epoch Delta Time: 0:37:17.950607
+Delta Time From Start: 4:58:40.127077
+Epoch 9/20, Content Loss: 0.09243837473988532, Style Loss: 0.09341717911660671, Total Loss: 0.1858555539906025
+Epoch Start Time: 18:33:53.664412
+Epoch End Time: 19:11:13.581624
+Epoch Delta Time: 0:37:19.917212
+Delta Time From Start: 5:36:00.044313
+Epoch 10/20, Content Loss: 0.0903630220592022, Style Loss: 0.09125593243539333, Total Loss: 0.18161895456314087
+Epoch Start Time: 19:11:13.581637
+Epoch End Time: 19:48:32.511078
+Epoch Delta Time: 0:37:18.929441
+Delta Time From Start: 6:13:18.973767
+Epoch 11/20, Content Loss: 0.08862330235242843, Style Loss: 0.08990090289115905, Total Loss: 0.17852420554757117
+Epoch Start Time: 19:48:32.511100
+Epoch End Time: 20:25:51.794308
+Epoch Delta Time: 0:37:19.283208
+Delta Time From Start: 6:50:38.256997
+Epoch 12/20, Content Loss: 0.08809472299218178, Style Loss: 0.08845341504216195, Total Loss: 0.17654813817739487
+Epoch Start Time: 20:25:51.794332
+Epoch End Time: 21:03:11.495851
+Epoch Delta Time: 0:37:19.701519
+Delta Time From Start: 7:27:57.958540
+Epoch 13/20, Content Loss: 0.08731687273085117, Style Loss: 0.08898409022986889, Total Loss: 0.17630096319913865
+Epoch Start Time: 21:03:11.495873
+Epoch End Time: 21:40:30.394112
+Epoch Delta Time: 0:37:18.898239
+Delta Time From Start: 8:05:16.856801
+Epoch 14/20, Content Loss: 0.08485870655477047, Style Loss: 0.0834493910342455, Total Loss: 0.16830809779763223
+Epoch Start Time: 21:40:30.394130
+Epoch End Time: 22:17:47.924578
+Epoch Delta Time: 0:37:17.530448
+Delta Time From Start: 8:42:34.387267
+Epoch 15/20, Content Loss: 0.08412234061956406, Style Loss: 0.08380733010470867, Total Loss: 0.16792967049479485
+Epoch Start Time: 22:17:47.924596
+Epoch End Time: 22:55:06.319767
+Epoch Delta Time: 0:37:18.395171
+Delta Time From Start: 9:19:52.782456
+Epoch 16/20, Content Loss: 0.083005880433321, Style Loss: 0.08189936105906963, Total Loss: 0.16490524128079415
+Epoch Start Time: 22:55:06.319784
+Epoch End Time: 23:32:24.920451
+Epoch Delta Time: 0:37:18.600667
+Delta Time From Start: 9:57:11.383140
+Epoch 17/20, Content Loss: 0.08212303868532181, Style Loss: 0.07930918525159358, Total Loss: 0.1614322242796421
+Epoch Start Time: 23:32:24.920480
+Epoch End Time: 00:09:41.363712
+Epoch Delta Time: 0:37:16.443232
+Delta Time From Start: 10:34:27.826401
+Epoch 18/20, Content Loss: 0.08120449391305447, Style Loss: 0.0792951665431261, Total Loss: 0.1604996605217457
+Epoch Start Time: 00:09:41.363742
+Epoch End Time: 00:46:58.787545
+Epoch Delta Time: 0:37:17.423803
+Delta Time From Start: 11:11:45.250234
+Epoch 19/20, Content Loss: 0.0802978771328926, Style Loss: 0.07778437123298645, Total Loss: 0.1580822482764721
+Epoch Start Time: 00:46:58.787561
+Epoch End Time: 01:24:29.698260
+Epoch Delta Time: 0:37:30.910699
+Delta Time From Start: 11:49:16.160949
+Epoch 20/20, Content Loss: 0.0802868048876524, Style Loss: 0.07745573603212834, Total Loss: 0.1577425409734249
+Epoch Start Time: 01:24:29.698286
+Epoch End Time: 02:01:38.121398
+Epoch Delta Time: 0:37:08.423112
+Delta Time From Start: 12:26:24.584087
+Training end time: 02:01:38.121420
+Training total time: 12:26:24.584109
+
+Process finished with exit code 0

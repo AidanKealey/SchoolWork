@@ -1,0 +1,53 @@
+#   1k testing
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
+
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
+
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
+
+
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
+
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
+
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d1k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
+
+
+
+#   10k testing
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
+
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
+
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/cornell.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
+
+
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/chagall_marc_1.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
+
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/brushstrokes.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
+
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.1
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.5
+python3 test.py -content_image images/content_dir/000000000081.jpg -style_image images/style_dir/0a585acb9d7134c0b39656a588527385c.jpg -decoder ../decoder_d10k_g1_e20_b10.pth -encoder ../encoder.pth -alpha 0.9
