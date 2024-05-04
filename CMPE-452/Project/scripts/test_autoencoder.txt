@@ -1,0 +1,2 @@
+# Script to test autoencoder, replace path_to_weight_file with the path to your weight file from training
+python ./src/mnist_reconstruct.py -l path_to_weight_file

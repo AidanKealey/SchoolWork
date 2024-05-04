@@ -1,0 +1,26 @@
+aidankealey@Aidans-MacBook-Pro build % ./query 
+Callsign Options Are: AC180, KM20, PT130, WJ910
+Enter callsign to monitor: PT130
+**** query waiting for messages
+
+**** Received alert from TorontoCentre 
+  |  Flight : "PT130" 
+  |  Source : "zone::centre" 
+  |  Destination : "zone::AD" 
+  |  Timestamp : "1656331270" 
+
+
+**** Received alert from TorontoAD 
+  |  Flight : "PT130" 
+  |  Source : "zone::AD" 
+  |  Destination : "zone::centre" 
+  |  Timestamp : "1656331282" 
+
+
+**** Received alert from TorontoCentre 
+  |  Flight : "PT130" 
+  |  Source : "zone::centre" 
+  |  Destination : "zone::AD" 
+  |  Timestamp : "1656331586" 
+
+aidankealey@Aidans-MacBook-Pro build % 

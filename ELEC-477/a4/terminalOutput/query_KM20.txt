@@ -1,0 +1,5 @@
+aidankealey@Aidans-MacBook-Pro build % ./query 
+Callsign Options Are: AC180, KM20, PT130, WJ910
+Enter callsign to monitor: KM20
+**** query waiting for messages
+aidankealey@Aidans-MacBook-Pro build % 

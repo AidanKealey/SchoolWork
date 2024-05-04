@@ -1,0 +1,12 @@
+aidankealey@Aidans-MacBook-Pro build % ./query 
+Callsign Options Are: AC180, KM20, PT130, WJ910
+Enter callsign to monitor: WJ910
+**** query waiting for messages
+
+**** Received alert from TorontoAD 
+  |  Flight : "WJ910" 
+  |  Source : "zone::AD" 
+  |  Destination : "zone::centre" 
+  |  Timestamp : "1656331238" 
+
+aidankealey@Aidans-MacBook-Pro build % 

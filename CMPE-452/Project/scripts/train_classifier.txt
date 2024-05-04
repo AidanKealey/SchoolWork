@@ -1,0 +1,2 @@
+# Script to run classifier training
+python ./src/mnist_classification.py -e 100 -b 512 -w 1 -l ./saved_train/euclid_mlp_classifier -p ./loss_graph/loss_euclid_classifier.png -cuda Y

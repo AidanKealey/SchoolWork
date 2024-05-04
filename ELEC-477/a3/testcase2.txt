@@ -1,0 +1,78 @@
+Main: ************************************
+Main: starting servers
+Main: starting directory server
+Starting service: Directory1
+in SDService::start
+Main: starting other servers
+Starting service: server1.KV_RPC
+Starting service: server2.KV_RPC
+KVServiceServer registering new service
+KVServiceServer registering new service
+atempting to register new service
+in SDStub init
+atempting to register new service
+in SDStub init
+successful send to socket: 1000
+SDService::start() successful recieved in while
+registering new server in directory
+in SDService::registerServer
+successful send to socket: 1000
+registered new server -- GOOD
+SDService::start() successful recieved in while
+registering new server in directory
+in SDService::registerServer
+registered new server -- GOOD
+service successfully registered in directory
+service successfully registered in directory
+Main: ************************************
+Main: init client
+Main: ************************************
+Main: starting client
+SDStub::searchForService
+atempting to search for service
+service nickname: snowRemovalMain: ************************************
+Main: waiting for clients to finish
+
+in SDStub init
+SDStub::searchForService
+atempting to search for service
+service nickname: grassCutting
+in SDStub init
+successful send to socket: 1000
+successful send to socket: 1000
+SDService::start() successful recieved in while
+searching for server in directory
+in SDService::searchForService looking for: snowRemoval
+service for server (snowRemoval) found in directory
+search results good, found server - server1 and port - 1515
+SDService::start() successful recieved in while
+searching for server in directory
+in SDService::searchForService looking for: grassCutting
+service for server (search message good
+grassCutting) found in directory
+search results good, found server - server2 and port - 5151
+search message good
+put message requested
+put result is 1
+put message requested
+put result is 1
+status is 1
+status is 1
+get message requested
+get message requested
+leaving get stub
+status is 1
+00 546869leaving get stub
+status is 1
+00 54686973 20697320 00206120 74657373 20697320 0020612074 This is .  7465a test
+7374 This is . 10 2121                                !!
+12
+a test
+10 2121                                !!
+12
+Main: ************************************
+Main: calling stop services on servers
+Main: ************************************
+Main: waiting for threads to complete
+Main: ************************************
+Main: stopping directory

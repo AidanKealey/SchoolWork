@@ -1,0 +1,40 @@
+Main: ************************************
+Main: starting server
+Main: Server server adding rpc service
+in add Service:
+in Node start
+number of services is 1
+Service: server.a1_service
+in RPCService::start
+in RPCService::initDatabase
+waiting for call from client
+Main: ************************************
+Main: initializing client
+Main: ************************************
+RPCClient starting.
+ClientStub::kvPut - Sending to 10.0.0.2:8080
+ClientStub::kvPut - Serialized message bytes: 8 1 10 2 1a 15 8 1 12 11 48 65 6c 6c 6f 2c 20 52 50 43 20 57 6f 72 6c 64 21
+ClientStub::kvPut - Serialized message size: 27 bytes
+I am the client. I am sending a message to the server at address 10.0.0.2 and port 8080.
+I am the server. I received a message from the client at address 10.0.0.3 and port 3800.
+server received 27 bytes.
+from address 10.0.0.3
+in RPCService::dispatch
+Extracted magic number: 1, Expected: 1
+Extracted version: 2, Expected: 2
+in RPCService::Put
+Value1 successfully stored in the database.
+I am the server. I am sending a response to the client at address 10.0.0.3 and port 3800.
+Server sent 27 bytes in response to kvPutRequest
+Value2 successfully stored in the database.
+waiting for call from client
+Main: waiting for client to finish
+value1 = value2
+client timed out
+Main: ************************************
+Main: calling stop services on server
+in RPCService::stop
+Main: ************************************
+Main: waiting for server threads to complete
+Main: Shutdown complete.
+in RPCService::stop

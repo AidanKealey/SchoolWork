@@ -1,0 +1,41 @@
+syntax="proto3";
+
+package E477KV;
+
+message kvRequest{
+    uint32 magic = 1;
+    uint32 version = 2;
+    uint32 serial = 3;
+    oneof function {
+        putRequest putArgs = 4;
+        getRequest getArgs = 5;
+    }
+}
+
+message putRequest {
+    int32 key = 1;
+    bytes value = 2;
+}
+
+message getRequest {
+    int32 key = 1;
+}
+
+message kvResponse {
+    uint32 magic = 1;
+    uint32 version = 2;
+    uint32 serial = 3;
+    oneof function {
+        putResponse putRes =4;
+        getResponse getRes =5;
+    }
+}
+
+message putResponse {
+    bool status=1;
+}
+
+message getResponse {
+    bool status=1;
+    bytes value = 2;
+}

@@ -1,0 +1,477 @@
+aidankealey@Aidans-MacBook-Pro build % ./torontoAD 
+**** torontoAD waiting for messages
+./torontoAD: no samples?
+**** subTorontoAD received: 1
+**** subTorontoAD received: 2
+**** subTorontoAD received: 3
+**** subTorontoAD received: 4
+**** subTorontoAD received: 5
+**** subTorontoAD received: 6
+**** subTorontoAD received: 7
+**** subTorontoAD received: 8
+**** subTorontoAD received: 9
+**** subTorontoAD received: 10
+**** subTorontoAD received: 11
+**** subTorontoAD received: 12
+**** subTorontoAD received: 13
+**** subTorontoAD received: 14
+**** subTorontoAD received: 15
+**** subTorontoAD received: 16
+**** subTorontoAD received: 17
+**** subTorontoAD received: 18
+**** subTorontoAD received: 19
+**** subTorontoAD received: 20
+
+**** Received alert from TorontoCentre 
+  |  Prepare for "AC180" transfer 
+  |  Flight : "AC180" 
+  |  Source : "zone::centre" 
+  |  Destination : "zone::AD" 
+  |  Timestamp : "1656331230" 
+
+**** subTorontoAD received: 21
+**** subTorontoAD received: 22
+**** subTorontoAD received: 23
+
+**** Received alert from TorontoCentre 
+  |  Prepare for "AC180" transfer 
+  |  Flight : "AC180" 
+  |  Source : "zone::centre" 
+  |  Destination : "zone::AD" 
+  |  Timestamp : "1656331230" 
+
+**** subTorontoAD received: 24
+**** subTorontoAD received: 25
+**** subTorontoAD received: 26
+**** subTorontoAD received: 27
+**** subTorontoAD received: 28
+
+----TorontoAD Boundary Alert---- 
+
+Aircraft leaving Toronto AD by ascending through 3000ft
+  |  Flight : "WJ910" -- is climbing 
+  |  Distance from airport : "1.73153nm" 
+  |  The plane is heading AWAY from the airport 
+  |  Geo Altitude : "2587.48ft" 
+
+**** subTorontoAD received: 29
+**** subTorontoAD received: 30
+**** subTorontoAD received: 31
+**** subTorontoAD received: 32
+**** subTorontoAD received: 33
+**** subTorontoAD received: 34
+**** subTorontoAD received: 35
+**** subTorontoAD received: 36
+**** subTorontoAD received: 37
+**** subTorontoAD received: 38
+**** subTorontoAD received: 39
+**** subTorontoAD received: 40
+**** subTorontoAD received: 41
+**** subTorontoAD received: 42
+**** subTorontoAD received: 43
+**** subTorontoAD received: 44
+**** subTorontoAD received: 45
+**** subTorontoAD received: 46
+**** subTorontoAD received: 47
+**** subTorontoAD received: 48
+**** subTorontoAD received: 49
+**** subTorontoAD received: 50
+**** subTorontoAD received: 51
+**** subTorontoAD received: 52
+**** subTorontoAD received: 53
+**** subTorontoAD received: 54
+**** subTorontoAD received: 55
+**** subTorontoAD received: 56
+**** subTorontoAD received: 57
+**** subTorontoAD received: 58
+**** subTorontoAD received: 59
+**** subTorontoAD received: 60
+
+**** Received alert from TorontoCentre 
+  |  Prepare for "PT130" transfer 
+  |  Flight : "PT130" 
+  |  Source : "zone::centre" 
+  |  Destination : "zone::AD" 
+  |  Timestamp : "1656331270" 
+
+**** subTorontoAD received: 61
+**** subTorontoAD received: 62
+**** subTorontoAD received: 63
+**** subTorontoAD received: 64
+**** subTorontoAD received: 65
+**** subTorontoAD received: 66
+**** subTorontoAD received: 67
+**** subTorontoAD received: 68
+**** subTorontoAD received: 69
+**** subTorontoAD received: 70
+
+----TorontoAD Boundary Alert---- 
+
+Aircraft leaving Toronto AD by crossing the 8nm barrier
+  |  Flight : "PT130" 
+  |  Distance from airport : "7.91772nm" 
+  |  The plane is heading TOWARDS the airport 
+  |  Geo Altitude : "2000ft" 
+
+**** subTorontoAD received: 71
+**** subTorontoAD received: 72
+**** subTorontoAD received: 73
+**** subTorontoAD received: 74
+**** subTorontoAD received: 75
+**** subTorontoAD received: 76
+**** subTorontoAD received: 77
+**** subTorontoAD received: 78
+**** subTorontoAD received: 79
+**** subTorontoAD received: 80
+**** subTorontoAD received: 81
+**** subTorontoAD received: 82
+**** subTorontoAD received: 83
+**** subTorontoAD received: 84
+**** subTorontoAD received: 85
+**** subTorontoAD received: 86
+**** subTorontoAD received: 87
+**** subTorontoAD received: 88
+**** subTorontoAD received: 89
+**** subTorontoAD received: 90
+**** subTorontoAD received: 91
+**** subTorontoAD received: 92
+**** subTorontoAD received: 93
+**** subTorontoAD received: 94
+**** subTorontoAD received: 95
+**** subTorontoAD received: 96
+**** subTorontoAD received: 97
+**** subTorontoAD received: 98
+**** subTorontoAD received: 99
+**** subTorontoAD received: 100
+**** subTorontoAD received: 101
+**** subTorontoAD received: 102
+**** subTorontoAD received: 103
+**** subTorontoAD received: 104
+**** subTorontoAD received: 105
+**** subTorontoAD received: 106
+**** subTorontoAD received: 107
+**** subTorontoAD received: 108
+**** subTorontoAD received: 109
+**** subTorontoAD received: 110
+**** subTorontoAD received: 111
+**** subTorontoAD received: 112
+**** subTorontoAD received: 113
+**** subTorontoAD received: 114
+**** subTorontoAD received: 115
+**** subTorontoAD received: 116
+**** subTorontoAD received: 117
+**** subTorontoAD received: 118
+**** subTorontoAD received: 119
+**** subTorontoAD received: 120
+**** subTorontoAD received: 121
+**** subTorontoAD received: 122
+**** subTorontoAD received: 123
+**** subTorontoAD received: 124
+**** subTorontoAD received: 125
+**** subTorontoAD received: 126
+**** subTorontoAD received: 127
+**** subTorontoAD received: 128
+**** subTorontoAD received: 129
+**** subTorontoAD received: 130
+**** subTorontoAD received: 131
+**** subTorontoAD received: 132
+**** subTorontoAD received: 133
+**** subTorontoAD received: 134
+**** subTorontoAD received: 135
+**** subTorontoAD received: 136
+**** subTorontoAD received: 137
+**** subTorontoAD received: 138
+**** subTorontoAD received: 139
+**** subTorontoAD received: 140
+**** subTorontoAD received: 141
+**** subTorontoAD received: 142
+**** subTorontoAD received: 143
+**** subTorontoAD received: 144
+**** subTorontoAD received: 145
+**** subTorontoAD received: 146
+**** subTorontoAD received: 147
+**** subTorontoAD received: 148
+**** subTorontoAD received: 149
+**** subTorontoAD received: 150
+**** subTorontoAD received: 151
+**** subTorontoAD received: 152
+**** subTorontoAD received: 153
+**** subTorontoAD received: 154
+**** subTorontoAD received: 155
+**** subTorontoAD received: 156
+**** subTorontoAD received: 157
+**** subTorontoAD received: 158
+**** subTorontoAD received: 159
+**** subTorontoAD received: 160
+**** subTorontoAD received: 161
+**** subTorontoAD received: 162
+**** subTorontoAD received: 163
+**** subTorontoAD received: 164
+**** subTorontoAD received: 165
+**** subTorontoAD received: 166
+**** subTorontoAD received: 167
+**** subTorontoAD received: 168
+**** subTorontoAD received: 169
+**** subTorontoAD received: 170
+**** subTorontoAD received: 171
+**** subTorontoAD received: 172
+**** subTorontoAD received: 173
+**** subTorontoAD received: 174
+**** subTorontoAD received: 175
+**** subTorontoAD received: 176
+**** subTorontoAD received: 177
+**** subTorontoAD received: 178
+**** subTorontoAD received: 179
+**** subTorontoAD received: 180
+**** subTorontoAD received: 181
+**** subTorontoAD received: 182
+**** subTorontoAD received: 183
+**** subTorontoAD received: 184
+**** subTorontoAD received: 185
+**** subTorontoAD received: 186
+**** subTorontoAD received: 187
+**** subTorontoAD received: 188
+**** subTorontoAD received: 189
+**** subTorontoAD received: 190
+**** subTorontoAD received: 191
+**** subTorontoAD received: 192
+**** subTorontoAD received: 193
+**** subTorontoAD received: 194
+**** subTorontoAD received: 195
+**** subTorontoAD received: 196
+**** subTorontoAD received: 197
+**** subTorontoAD received: 198
+**** subTorontoAD received: 199
+**** subTorontoAD received: 200
+**** subTorontoAD received: 201
+**** subTorontoAD received: 202
+**** subTorontoAD received: 203
+**** subTorontoAD received: 204
+**** subTorontoAD received: 205
+**** subTorontoAD received: 206
+**** subTorontoAD received: 207
+**** subTorontoAD received: 208
+**** subTorontoAD received: 209
+**** subTorontoAD received: 210
+**** subTorontoAD received: 211
+**** subTorontoAD received: 212
+**** subTorontoAD received: 213
+**** subTorontoAD received: 214
+**** subTorontoAD received: 215
+**** subTorontoAD received: 216
+**** subTorontoAD received: 217
+**** subTorontoAD received: 218
+**** subTorontoAD received: 219
+**** subTorontoAD received: 220
+**** subTorontoAD received: 221
+**** subTorontoAD received: 222
+**** subTorontoAD received: 223
+**** subTorontoAD received: 224
+**** subTorontoAD received: 225
+**** subTorontoAD received: 226
+**** subTorontoAD received: 227
+**** subTorontoAD received: 228
+**** subTorontoAD received: 229
+**** subTorontoAD received: 230
+**** subTorontoAD received: 231
+**** subTorontoAD received: 232
+**** subTorontoAD received: 233
+**** subTorontoAD received: 234
+**** subTorontoAD received: 235
+**** subTorontoAD received: 236
+**** subTorontoAD received: 237
+**** subTorontoAD received: 238
+**** subTorontoAD received: 239
+**** subTorontoAD received: 240
+**** subTorontoAD received: 241
+**** subTorontoAD received: 242
+**** subTorontoAD received: 243
+**** subTorontoAD received: 244
+**** subTorontoAD received: 245
+**** subTorontoAD received: 246
+**** subTorontoAD received: 247
+**** subTorontoAD received: 248
+**** subTorontoAD received: 249
+**** subTorontoAD received: 250
+**** subTorontoAD received: 251
+**** subTorontoAD received: 252
+**** subTorontoAD received: 253
+**** subTorontoAD received: 254
+**** subTorontoAD received: 255
+**** subTorontoAD received: 256
+**** subTorontoAD received: 257
+**** subTorontoAD received: 258
+**** subTorontoAD received: 259
+**** subTorontoAD received: 260
+**** subTorontoAD received: 261
+**** subTorontoAD received: 262
+**** subTorontoAD received: 263
+**** subTorontoAD received: 264
+**** subTorontoAD received: 265
+**** subTorontoAD received: 266
+**** subTorontoAD received: 267
+**** subTorontoAD received: 268
+**** subTorontoAD received: 269
+**** subTorontoAD received: 270
+**** subTorontoAD received: 271
+**** subTorontoAD received: 272
+**** subTorontoAD received: 273
+**** subTorontoAD received: 274
+**** subTorontoAD received: 275
+**** subTorontoAD received: 276
+**** subTorontoAD received: 277
+**** subTorontoAD received: 278
+**** subTorontoAD received: 279
+**** subTorontoAD received: 280
+**** subTorontoAD received: 281
+**** subTorontoAD received: 282
+**** subTorontoAD received: 283
+**** subTorontoAD received: 284
+**** subTorontoAD received: 285
+**** subTorontoAD received: 286
+**** subTorontoAD received: 287
+**** subTorontoAD received: 288
+**** subTorontoAD received: 289
+**** subTorontoAD received: 290
+**** subTorontoAD received: 291
+**** subTorontoAD received: 292
+**** subTorontoAD received: 293
+**** subTorontoAD received: 294
+**** subTorontoAD received: 295
+**** subTorontoAD received: 296
+**** subTorontoAD received: 297
+**** subTorontoAD received: 298
+**** subTorontoAD received: 299
+**** subTorontoAD received: 300
+**** subTorontoAD received: 301
+**** subTorontoAD received: 302
+
+**** Received alert from TorontoCentre 
+  |  Prepare for "PT130" transfer 
+  |  Flight : "PT130" 
+  |  Source : "zone::centre" 
+  |  Destination : "zone::AD" 
+  |  Timestamp : "1656331586" 
+
+**** subTorontoAD received: 303
+**** subTorontoAD received: 304
+
+**** Received alert from TorontoCentre 
+  |  Prepare for "PT130" transfer 
+  |  Flight : "PT130" 
+  |  Source : "zone::centre" 
+  |  Destination : "zone::AD" 
+  |  Timestamp : "1656331586" 
+
+**** subTorontoAD received: 305
+**** subTorontoAD received: 306
+**** subTorontoAD received: 307
+**** subTorontoAD received: 308
+**** subTorontoAD received: 309
+**** subTorontoAD received: 310
+**** subTorontoAD received: 311
+**** subTorontoAD received: 312
+**** subTorontoAD received: 313
+**** subTorontoAD received: 314
+**** subTorontoAD received: 315
+**** subTorontoAD received: 316
+**** subTorontoAD received: 317
+**** subTorontoAD received: 318
+**** subTorontoAD received: 319
+**** subTorontoAD received: 320
+**** subTorontoAD received: 321
+**** subTorontoAD received: 322
+**** subTorontoAD received: 323
+**** subTorontoAD received: 324
+**** subTorontoAD received: 325
+**** subTorontoAD received: 326
+**** subTorontoAD received: 327
+**** subTorontoAD received: 328
+**** subTorontoAD received: 329
+**** subTorontoAD received: 330
+**** subTorontoAD received: 331
+**** subTorontoAD received: 332
+**** subTorontoAD received: 333
+**** subTorontoAD received: 334
+**** subTorontoAD received: 335
+**** subTorontoAD received: 336
+**** subTorontoAD received: 337
+**** subTorontoAD received: 338
+**** subTorontoAD received: 339
+**** subTorontoAD received: 340
+**** subTorontoAD received: 341
+**** subTorontoAD received: 342
+**** subTorontoAD received: 343
+**** subTorontoAD received: 344
+**** subTorontoAD received: 345
+**** subTorontoAD received: 346
+**** subTorontoAD received: 347
+**** subTorontoAD received: 348
+**** subTorontoAD received: 349
+**** subTorontoAD received: 350
+**** subTorontoAD received: 351
+**** subTorontoAD received: 352
+**** subTorontoAD received: 353
+**** subTorontoAD received: 354
+**** subTorontoAD received: 355
+**** subTorontoAD received: 356
+**** subTorontoAD received: 357
+**** subTorontoAD received: 358
+**** subTorontoAD received: 359
+**** subTorontoAD received: 360
+**** subTorontoAD received: 361
+**** subTorontoAD received: 362
+**** subTorontoAD received: 363
+**** subTorontoAD received: 364
+**** subTorontoAD received: 365
+**** subTorontoAD received: 366
+**** subTorontoAD received: 367
+**** subTorontoAD received: 368
+**** subTorontoAD received: 369
+**** subTorontoAD received: 370
+**** subTorontoAD received: 371
+**** subTorontoAD received: 372
+**** subTorontoAD received: 373
+**** subTorontoAD received: 374
+**** subTorontoAD received: 375
+**** subTorontoAD received: 376
+**** subTorontoAD received: 377
+**** subTorontoAD received: 378
+**** subTorontoAD received: 379
+**** subTorontoAD received: 380
+**** subTorontoAD received: 381
+**** subTorontoAD received: 382
+**** subTorontoAD received: 383
+**** subTorontoAD received: 384
+**** subTorontoAD received: 385
+**** subTorontoAD received: 386
+**** subTorontoAD received: 387
+**** subTorontoAD received: 388
+**** subTorontoAD received: 389
+**** subTorontoAD received: 390
+**** subTorontoAD received: 391
+**** subTorontoAD received: 392
+**** subTorontoAD received: 393
+**** subTorontoAD received: 394
+**** subTorontoAD received: 395
+**** subTorontoAD received: 396
+**** subTorontoAD received: 397
+**** subTorontoAD received: 398
+**** subTorontoAD received: 399
+**** subTorontoAD received: 400
+**** subTorontoAD received: 401
+**** subTorontoAD received: 402
+**** subTorontoAD received: 403
+**** subTorontoAD received: 404
+**** subTorontoAD received: 405
+**** subTorontoAD received: 406
+**** subTorontoAD received: 407
+**** subTorontoAD received: 408
+**** subTorontoAD received: 409
+**** subTorontoAD received: 410
+**** subTorontoAD received: 411
+**** subTorontoAD received: 412
+**** subTorontoAD received: 413
+**** subTorontoAD received: 414
+./torontoAD: no samples?
+aidankealey@Aidans-MacBook-Pro build % 

@@ -4,14 +4,28 @@ The code in this repo are from my personal projects and school work
 
 ## Overview
 
+### CMPE 351 - Advance Data Analytics
+
+* This folder contains the folders to the code of the 2 assignments I had in this course.
+* This folder also contains my group's code for the course project.
+
+### CMPE 452 - Neural And Genetic Computing
+
+* This folder contains the folders to the code of the 4 assignments I had in this course.
+* This folder also contains my group's code for the course project.
+
 ### ELEC 475 - Computer Vision with Deep Learning
 
 * This folder contains folders to the 5 assignments I worked on during the course.
 
-### CMPE 452 - Neural And Genetic Computing
+### ELEC 477 - Distributed Systems
 
-* This folder contains the folders to the code portions of the 4 assignments I had in this course.
-* This folder also contains my group's code for the course project.
+* This folder contains the folders to the code of the 4 assignments I had in this course.
+
+### ELEC 490/498 - Electrical Engineering Project (Capstone)
+
+* This folder contains the code for the GUI interface and Arduino Mega for my group capstone project.
+* This folder also contains a powerpoint that explains the project in more detail.
 
 ## Datasets
 

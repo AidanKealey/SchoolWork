@@ -1,0 +1,2 @@
+# Script to run autoencoder training
+python ./src/mnist_autoencoder.py -e 100 -b 512 -w 1 -l ./saved_train/euclid_mlp_autoencoder -p ./loss_graph/loss_euclid_autoencoder.png -cuda Y

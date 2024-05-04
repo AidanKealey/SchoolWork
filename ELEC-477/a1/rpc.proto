@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package RPC;
+
+message rpcHeader {
+    int32 magic_number = 1;             // magic number
+    int32 version = 2;                  // protocol version
+    oneof message {                     // message type
+        kvPutRequest put_request = 3;
+        kvPutResponse put_response = 4;
+        kvGetRequest get_request = 5;
+        kvGetResponse get_response = 6;
+    }
+}
+
+// put request from client to server (client)
+message kvPutRequest {
+    int32 key = 1;
+    string value = 2;
+    uint32 value_len = 3;
+}
+
+// put response from server to client (server)
+message kvPutResponse {
+    bool status = 1;
+}
+
+// get request from client to server (server)
+message kvGetRequest {
+    int32 key = 1;       
+}
+
+// get response from server to client (client)
+message kvGetResponse {
+    bool status = 1;
+    string value = 2;
+    uint32 value_len = 3; 
+}

@@ -1,0 +1,13 @@
+module Radar {
+    enum zone {
+		AD,
+		centre
+	};
+
+	@final struct Route {
+		@key string callsign;
+		zone birthplace;
+		zone destination;
+		unsigned long timestamp;
+	};
+};

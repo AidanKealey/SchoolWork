@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+package E477DirectoryService;
+
+message DSRequest {
+    uint32 magic = 1;
+    uint32 version = 2;
+    uint32 serial = 3;
+    oneof function {
+        registerServiceRequest registerServiceArgs = 4;
+        searchServiceRequest searchServiceArgs = 5;
+        deleteServiceRequest deleteServiceArgs = 6;
+    }
+}
+
+message registerServiceRequest {
+    string serviceName = 1;
+    string serverName = 2;
+    int32 port = 3;
+}
+
+message searchServiceRequest {
+    string serviceName = 1;
+}
+
+message deleteServiceRequest {
+    string serviceName = 1;
+}
+
+message DSResponse {
+    uint32 magic = 1;
+    uint32 version = 2;
+    uint32 serial = 3;
+    oneof function {
+        registerServiceResponse registerServiceRes = 4;
+        searchServiceResponse searchServiceRes = 5;
+        deleteServiceResponse deleteServiceRes = 6;
+    }
+}
+
+message registerServiceResponse {
+    bool success = 1;
+}
+
+message searchServiceResponse {
+    bool found = 1;
+    string serverName = 2;
+    int32 port = 3;
+}
+
+message deleteServiceResponse {
+    bool success = 1;
+}
